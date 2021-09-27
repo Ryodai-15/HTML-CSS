@@ -53,5 +53,50 @@
       </tr>
     </table>
 
+    <form action ="example.php" method="post" name="contact-form">
+      ここにフォーム部品が入ります。
+    </form>
+
+    <p>
+      名前： <input type="text" placeholder="名字名前">
+    </p>
+    
+    <p>
+      性別： 
+    <input type="radio" name="gender" value="男"> 男
+    <input type="radio" name="gender" value="女" checked> 女
+    <input type="radio" name="gender" value="その他"> その他
+    </p>
+    
+    <p>
+      好きな色：
+    <input type="checkbox" name="color" value="赤"> 赤
+    <input type="checkbox" name="color" value="青" checked> 青
+    <input type="checkbox" name="color" value="黃">　黄
+    <input type="checkbox" name="color" value="緑">　緑
+    </p>
+    
+    <p>
+      <input type="submit" value="送信する">
+    </p>
+
+    <input type="image" src="images/button.png" alt="送信する">
+
+    <P>
+      血液型
+      <select name="bloodtype">
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="C">C</option>
+        <option value="AB">AB</option>
+        <option value="不明" selected>不明</option>
+      </select>
+    </P>
+
+    <textarea name="message" placeholder="メッセージを入力"></textarea>
+
+    <input type="checkbox" name="travel" value="日本国内" id="japan">
+    <label for="japan">日本国内</label>
+
   </body>
 </html>
